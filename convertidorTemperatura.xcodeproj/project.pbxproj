@@ -10,6 +10,7 @@
 		4453FCE526CDDFD2004ED768 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453FCE426CDDFD2004ED768 /* Temperature.swift */; };
 		4453FCE826CDE256004ED768 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453FCE726CDE256004ED768 /* TemperatureConverter.swift */; };
 		4453FCEA26CDE3ED004ED768 /* TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4453FCE926CDE3ED004ED768 /* TemperatureConverterTests.swift */; };
+		44E0012626DDAF8F0062898A /* TemperatureConverterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0012526DDAF8F0062898A /* TemperatureConverterService.swift */; };
 		44FE2FDF26CB3B3000720F44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE2FDE26CB3B3000720F44 /* AppDelegate.swift */; };
 		44FE2FE126CB3B3000720F44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE2FE026CB3B3000720F44 /* SceneDelegate.swift */; };
 		44FE2FE326CB3B3000720F44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FE2FE226CB3B3000720F44 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 		4453FCE426CDDFD2004ED768 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
 		4453FCE726CDE256004ED768 /* TemperatureConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 		4453FCE926CDE3ED004ED768 /* TemperatureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterTests.swift; sourceTree = "<group>"; };
+		44E0012526DDAF8F0062898A /* TemperatureConverterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterService.swift; sourceTree = "<group>"; };
 		44FE2FDB26CB3B3000720F44 /* convertidorTemperatura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertidorTemperatura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FE2FDE26CB3B3000720F44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44FE2FE026CB3B3000720F44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		4453FCE226CDDF2D004ED768 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				44E0012426DDAF6A0062898A /* Services */,
 				4453FCE626CDE227004ED768 /* Tools */,
 				4453FCE326CDDF41004ED768 /* ValueObjet */,
 			);
@@ -103,6 +106,14 @@
 				4453FCE726CDE256004ED768 /* TemperatureConverter.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		44E0012426DDAF6A0062898A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44E0012526DDAF8F0062898A /* TemperatureConverterService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		44FE2FD226CB3B3000720F44 = {
@@ -293,6 +304,7 @@
 				44FE2FDF26CB3B3000720F44 /* AppDelegate.swift in Sources */,
 				4453FCE526CDDFD2004ED768 /* Temperature.swift in Sources */,
 				44FE2FE126CB3B3000720F44 /* SceneDelegate.swift in Sources */,
+				44E0012626DDAF8F0062898A /* TemperatureConverterService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
